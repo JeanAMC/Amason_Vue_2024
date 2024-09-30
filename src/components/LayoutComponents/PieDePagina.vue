@@ -12,7 +12,7 @@
         <div class="footerNav">
             <ul><li><a href="">Inicio</a></li>
                 <li><a href="">Noticias</a></li>
-                <li><a href="">Contactanos</a></li>
+                <li><a href="">Contactenos</a></li>
             </ul>
         </div>
         
@@ -36,12 +36,12 @@
 .wrapper {
             display: flex;
             flex-direction: column;
-            min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+            min-height: 100vh; 
         }
 
-        /* Contenido principal */
+
         .content {
-            flex: 1; /* El contenido ocupa todo el espacio disponible */
+            flex: 1; 
             padding: 20px;
         }
 
@@ -68,7 +68,7 @@ footer{
     color: rgb(23, 37, 95);
     opacity: 0,9;
 }
-/* Hover affect on social media icon */
+
 .socialIcons a:hover{
     background-color: #111;
     transition: 0.5s;

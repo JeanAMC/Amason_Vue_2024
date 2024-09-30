@@ -1,7 +1,7 @@
 <template>
     <div>
     <section>
-        <p>Categorias</p>
+        <p class = "title-category">Categorias</p>
         <div class="container-categories">
             <div class="card-category category-electronics">
                 <p>Electronicos</p>
@@ -33,7 +33,7 @@
 <div>
     
     <section>
-        <p>Ejemplos</p>
+        <p class = "title-category">Ejemplos</p>
         <div class="container-categories">
             <div class="card-category category-electronics">
                 <p>Electronicos</p>
@@ -65,32 +65,30 @@
   </template>
 
 <style scoped>
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 .container-categories {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     row-gap: 2rem;
     padding: 4rem 0;
-    margin: 0 14rem; 
+    margin: 0 5rem; 
 
 }
 section {
-    margin-left: 100px;
-
+    width: 1200px; /* Ancho fijo */
+    margin: 50px auto; /* Esto centra el componente y aplica un margen superior/inferior de 50px */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     background-color: aliceblue;
-    margin: 50px; 
     padding: 20px;
-align-self: center;
 }
 .card-category {
-    height: 18rem;
-    width: 25rem;
+    height: 10rem;
+    width: 18rem;
     display: flex;
     flex-direction: column;
     gap: 6rem;
-    margin: 5px;  
+
 
 }
 
@@ -100,7 +98,7 @@ align-self: center;
     color: #fff;
     cursor: pointer;
     text-align: left;
-    margin-top: 155px; 
+    margin-top: 26px; 
     padding-left: 2px;
 }
 .card-category span:hover{
@@ -109,13 +107,19 @@ align-self: center;
 .card-category p{
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
+
+}
+.title-category{
+    font-size: 2rem;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 20px;
 }
 .category-electronics {
     background-image: url('src/assets/imagen_ejemplo_electronicos.jpg');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
-
 }
 .category-home{    
     background-image:url('src/assets/imagen_ejemplo_Hogar.jpg');
@@ -158,19 +162,20 @@ align-self: center;
 }
 @media (max-width: 1200px) {
     .container-categories {
-        grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas medianas */
-        margin: 0 5%; /* Margen más pequeño en pantallas medianas */
+        grid-template-columns: repeat(2, 1fr); 
+        margin: 0 5%; 
     }
 }
 
 @media (max-width: 768px) {
     .container-categories {
-        grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
-        margin: 0 2%; /* Margen aún más pequeño en pantallas pequeñas */
+        grid-template-columns: 1fr; 
+        margin: 0 2%; 
     }
 
     section {
-        margin-left: 0; /* Eliminar margen izquierdo en pantallas pequeñas */
+        margin-left: 0; 
     }
 }
+
 </style>
