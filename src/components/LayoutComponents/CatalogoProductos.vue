@@ -156,5 +156,21 @@ align-self: center;
     background-repeat: no-repeat;
 
 }
+@media (max-width: 1200px) {
+    .container-categories {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas medianas */
+        margin: 0 5%; /* Margen más pequeño en pantallas medianas */
+    }
+}
 
+@media (max-width: 768px) {
+    .container-categories {
+        grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
+        margin: 0 2%; /* Margen aún más pequeño en pantallas pequeñas */
+    }
+
+    section {
+        margin-left: 0; /* Eliminar margen izquierdo en pantallas pequeñas */
+    }
+}
 </style>
