@@ -1,13 +1,15 @@
 <template>
 
   <NavBar />
-
+  <category />
+  <PiePagina />
 </template>
 
 <script setup>
 
 import NavBar from '@/components/LayoutComponents/NavBar.vue';
-
+import category from '@/components/LayoutComponents/CatalogoProductos.vue';
+import PiePagina from '@/components/LayoutComponents/PieDePagina.vue';
 </script>
 
 
@@ -23,6 +25,11 @@ import NavBar from '@/components/LayoutComponents/NavBar.vue';
 .navbar {
 
   width: 90vw;
+
+}
+.category {
+
+width: 60vw;
 
 }
 </style>
