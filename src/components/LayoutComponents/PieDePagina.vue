@@ -46,7 +46,7 @@
         }
 
 footer{
-    background-color: #111;
+    background-color: #0c3683;
 }
 .footerContainer{
     width: 100%;
@@ -65,7 +65,7 @@ footer{
 }
 .socialIcons a i{
     font-size: 2em;
-    color: black;
+    color: rgb(23, 37, 95);
     opacity: 0,9;
 }
 /* Hover affect on social media icon */
@@ -98,7 +98,7 @@ footer{
     opacity: 1;
 }
 .footerBottom{
-    background-color: #000;
+    background-color: #060d4d;
     padding: 20px;
     text-align: center;
 }

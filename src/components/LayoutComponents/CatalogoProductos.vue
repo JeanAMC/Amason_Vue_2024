@@ -31,8 +31,9 @@
     </section>
 </div>
 <div>
-    <p>Ejemplos</p>
+    
     <section>
+        <p>Ejemplos</p>
         <div class="container-categories">
             <div class="card-category category-electronics">
                 <p>Electronicos</p>
