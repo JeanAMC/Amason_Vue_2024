@@ -8,7 +8,7 @@
                 <span>ver más</span>                    
             </div>    
             <div class="card-category category-home">
-                <p>Productos de hogar</p>
+                <p>Hogar</p>
                 <span>ver más</span>                    
             </div>    
             <div class="card-category category-clothes">
@@ -40,7 +40,7 @@
                 <span>ver más</span>                    
             </div>    
             <div class="card-category category-home">
-                <p>Productos de hogar</p>
+                <p>Hogar</p>
                 <span>ver más</span>                    
             </div>    
             <div class="card-category category-clothes">
@@ -165,7 +165,7 @@ section {
 @media (max-width: 768px) {
     .container-categories {
         grid-template-columns: repeat(2, 1fr); 
-        margin: 0 5%; 
+        margin: 0 20%; 
     }
 }
 
@@ -176,7 +176,7 @@ section {
     }
 
     section {
-        margin-left: 0; 
+        margin-left: 20; 
     }
 }
 
