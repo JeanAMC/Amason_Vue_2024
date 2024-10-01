@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="menu-toggle">
     <input type="checkbox" id="check" aria-label="Toggle navigation">
     <label for="check" class="checkbtn">
       <i class="fas fa-bars" aria-hidden="true"></i>
@@ -43,6 +43,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 35px 20px;
+
 }
 
 .logo {
@@ -142,6 +143,12 @@ ul li a {
 
 @media (max-width: 768px) {
 
+  nav .menu-toggle {
+        display: block;
+        cursor: pointer;
+        color: white;
+        font-size: 2rem;
+    }
   .logo {
     font-size: 1.5rem;
   }

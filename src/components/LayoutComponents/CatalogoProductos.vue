@@ -5,27 +5,27 @@
         <div class="container-categories">
             <div class="card-category category-electronics">
                 <p>Electronicos</p>
-                <span>ver más productos</span>                    
+                <span>ver más</span>                    
             </div>    
             <div class="card-category category-home">
-                <p>Productos para el hogar</p>
-                <span>ver más productos</span>                    
+                <p>Productos de hogar</p>
+                <span>ver más</span>                    
             </div>    
             <div class="card-category category-clothes">
                 <p>Ropa para ti</p>
-                <span>ver más productos</span>                    
+                <span>ver más</span>                    
             </div>    
             <div class="card-category category-houseAppliances">
-                <p>Eletrodomesticos para tu cocina</p>
-                <span>ver más productos</span>                    
+                <p>Eletrodomesticos</p>
+                <span>ver más</span>                    
             </div>    
             <div class="card-category category-furniture">
-                <p>Muebles para tu hogar</p>
-                <span>ver más productos</span>                    
+                <p>Muebles</p>
+                <span>ver más</span>                    
             </div>    
             <div class="card-category category-tools">
                 <p>Herramientas</p>
-                <span>ver más productos</span>                    
+                <span>ver más</span>                    
             </div>    
         </div>
     </section>
@@ -37,27 +37,27 @@
         <div class="container-categories">
             <div class="card-category category-electronics">
                 <p>Electronicos</p>
-                <span>ver más productos</span>                    
+                <span>ver más</span>                    
             </div>    
             <div class="card-category category-home">
-                <p>Productos para el hogar</p>
-                <span>ver más productos</span>                    
+                <p>Productos de hogar</p>
+                <span>ver más</span>                    
             </div>    
             <div class="card-category category-clothes">
-                <p>Ropa para ti</p>
-                <span>ver más productos</span>                    
+                <p>Ropa</p>
+                <span>ver más</span>                    
             </div>    
             <div class="card-category category-houseAppliances">
-                <p>Eletrodomesticos para tu cocina</p>
-                <span>ver más productos</span>                    
+                <p>Eletrodomesticos</p>
+                <span>ver más</span>                    
             </div>    
             <div class="card-category category-furniture">
-                <p>Muebles para tu hogar</p>
-                <span>ver más productos</span>                    
+                <p>Muebles</p>
+                <span>ver más</span>                    
             </div>    
             <div class="card-category category-tools">
                 <p>Herramientas</p>
-                <span>ver más productos</span>                    
+                <span>ver más</span>                    
             </div>    
         </div>
     </section>
@@ -73,14 +73,16 @@
     row-gap: 2rem;
     padding: 4rem 0;
     margin: 0 5rem; 
+    width: 85%;
 
 }
 section {
-    width: 1200px; /* Ancho fijo */
+    width: 60%;
     margin: 50px auto; /* Esto centra el componente y aplica un margen superior/inferior de 50px */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     background-color: aliceblue;
     padding: 20px;
+
 }
 .card-category {
     height: 10rem;
@@ -88,17 +90,17 @@ section {
     display: flex;
     flex-direction: column;
     gap: 6rem;
-
+    width: 100%;
 
 }
 
 .card-category span{
     background-color: rgba(0, 0, 0, 0.7);
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #fff;
     cursor: pointer;
     text-align: left;
-    margin-top: 26px; 
+    margin-top: 30px; 
     padding-left: 2px;
 }
 .card-category span:hover{
@@ -160,7 +162,7 @@ section {
     background-repeat: no-repeat;
 
 }
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     .container-categories {
         grid-template-columns: repeat(2, 1fr); 
         margin: 0 5%; 
